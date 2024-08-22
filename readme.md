@@ -1,4 +1,4 @@
-zel Manager 🛠️
+# Nazel Manager 🛠️
 
 **Nazel Manager** est un plugin Minecraft conçu pour gérer les serveurs de mini-jeux au sein de l'infrastructure Nazel. Il permet d'éteindre le serveur.  et de changer l'opérateur du serveur via des commandes simples.
 
@@ -7,7 +7,7 @@ zel Manager 🛠️
 - **🔁Changement d'opérateur** : Utilisez la commande `/changemanager <pseudo>` pour désigner un nouvel opérateur du serveur.
 - **🤖Automatisation** : Le changement d'opérateur est automatique lorsqu'un opérateur quitte le serveur.
 
-### Compiler le plugin🤔
+## Compiler le plugin🤔
 Pour compiler le plugin il suffit de faire un package avec maven
 
 ## Utilisation 🎮
