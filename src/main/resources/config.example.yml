@@ -1,0 +1,11 @@
+ownerPseudo: "vupilex"
+ownerMessage: "§4§l[IMPORTANT]§r§c : Vous êtes l'opérateur du serveur, vous pouvez lancer le jeu en tapant /lg start <pseudo>, pour plus d'info sur les commandes de l'opérateur visiter le discord"
+serverName: "PLAYER ACCOUNT ID"
+PTERODACTYL_API_TOKEN: "PTERO TOKEN"
+PTERODACTYL_API_IP: "PTERO IP"
+SPRING_BOOT_IP: "URL SPRING"
+SERVER_IP: "IP SERVER"
+tpSpawnWhenJoin: false
+spawn_x: 0
+spawn_y: 0
+spawn_z: 0

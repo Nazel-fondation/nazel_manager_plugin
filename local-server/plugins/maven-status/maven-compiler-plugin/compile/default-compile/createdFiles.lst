@@ -1,0 +1,11 @@
+fr/thibault/manager/commands/ChangeOperatorTapCompleter.class
+fr/thibault/manager/Main$1.class
+fr/thibault/manager/commands/ChangeOperator.class
+fr/thibault/manager/events/OnJoin.class
+fr/thibault/manager/commands/SpawnTabCompleter.class
+fr/thibault/manager/sounds/PlaySound.class
+fr/thibault/manager/api/ServerData.class
+fr/thibault/manager/commands/Spawn.class
+fr/thibault/manager/api/ServerAction.class
+fr/thibault/manager/Main.class
+fr/thibault/manager/events/OnQuit.class

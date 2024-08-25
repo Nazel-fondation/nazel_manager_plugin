@@ -1,0 +1,10 @@
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/Main.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/api/ServerAction.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/api/ServerData.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/commands/ChangeOperator.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/commands/ChangeOperatorTapCompleter.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/commands/Spawn.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/commands/SpawnTabCompleter.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/events/OnJoin.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/events/OnQuit.java
+/home/thibault/Documents/programmation/apis/nazel-manager/src/main/java/fr/thibault/manager/sounds/PlaySound.java

@@ -1,0 +1,46 @@
+apply plugin: 'java'
+
+group = 'fr.thibault.manager'
+version = '1.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
+
+
+repositories {
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        // As of Gradle 5.1, you can limit this to only those
+        // dependencies you expect from it
+        content {
+            includeGroup 'org.bukkit'
+            includeGroup 'org.spigotmc'
+        }
+    }
+    /*
+     As Spigot-API depends on the BungeeCord ChatComponent-API,
+    we need to add the Sonatype OSS repository, as Gradle,
+    in comparison to maven, doesn't want to understand the ~/.m2
+    directory unless added using mavenLocal(). Maven usually just gets
+    it from there, as most people have run the BuildTools at least once.
+    This is therefore not needed if you're using the full Spigot/CraftBukkit,
+    or if you're using the Bukkit API.
+    */
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url = 'https://oss.sonatype.org/content/repositories/central' }
+    // mavenLocal() // This is needed for CraftBukkit and Spigot.
+}
+
+dependencies {
+    implementation 'io.github.cdimascio:dotenv-java:3.0.0'
+    implementation 'com.google.firebase:firebase-admin:9.3.0'
+    implementation 'com.google.cloud:google-cloud-firestore:3.0.5'
+    compileOnly group: 'org.spigotmc', name: 'spigot-api', version:'1.15.1-R0.1-SNAPSHOT'
+}

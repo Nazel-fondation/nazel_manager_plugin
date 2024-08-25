@@ -1,0 +1,11 @@
+main: fr.thibault.manager.Main
+name: nazel-manager
+version: 1.0.0
+description: Plugin to manage server owner and shutdown server automatically
+commands:
+  changeOperator:
+    description: Permet de changer l'opérateur du serveur
+    permission: manager.changeOperator
+  spawn:
+    description: Permet de changer le spawn du serveur
+    permission: manager.setSpawn
